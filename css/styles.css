@@ -74,6 +74,8 @@ body {
 @media screen and (min-width: 1158px) {
     .container {
         width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .section {
@@ -227,7 +229,7 @@ body {
     padding: 0;
     width: 24px;
     height: 24px;
-    border: 1px solid var(--secondary-color-theme-dark);
+    border: 1px solid #E7E9FC;
     border-radius: 50%;
     background-color: transparent;
 
@@ -285,6 +287,8 @@ body {
 
 .mobile-social-list {
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 12px;
     column-gap: 56px;
 }
 
@@ -331,12 +335,13 @@ body {
 }
 
 .hero {
-    height: 432px;
     background-color: var(--secondary-color-theme-dark);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/img-mobile.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .main-title {
@@ -876,6 +881,7 @@ background-color: #31d0aa;
 
 /* FILTERS */
 .filters-list {
+    padding-right: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 16px 24px;
@@ -887,10 +893,6 @@ background-color: #31d0aa;
     justify-content: center;
     flex-wrap: wrap;
     row-gap: 48px;
-}
-
-.portfolio-list-img {
-    max-width: 360px;
 }
 
 .overlay {
@@ -1045,7 +1047,6 @@ background-color: #31d0aa;
 
 /* HERO */
 .hero {
-    height: 436px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/img-tablet.jpg");
 }
 
@@ -1215,8 +1216,6 @@ screen and (min-resolution: 2dppx) and (max-width: 1157px) {
 }
 
 .portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
 }
@@ -1229,9 +1228,6 @@ justify-content: start;
     flex-basis: calc((100% - 24px)/2);
 }
 
-.portfolio-list-img {
-    max-width: 356px;
-}
 /* /FILTERS */
 /* /PORTFOLIO */
 
@@ -1259,8 +1255,8 @@ justify-content: start;
     }
 
 .hero {
-    height: 600px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/img-desktop.jpg");
+    max-width: 1440px;
 }
 
 .contact-list {
@@ -1413,7 +1409,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 }
 
 .portfolio-list {
-    column-gap: 24px;
     row-gap: 48px;
 }
 
