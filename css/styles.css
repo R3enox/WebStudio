@@ -337,7 +337,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin: 0 auto;
 }
 
 .main-title {
@@ -879,7 +878,7 @@ background-color: #31d0aa;
 .filters-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px 16px;
+    gap: 16px 24px;
     margin-bottom: 48px;
 }
 
@@ -891,7 +890,7 @@ background-color: #31d0aa;
 }
 
 .portfolio-list-img {
-    width: 396px;
+    max-width: 360px;
 }
 
 .overlay {
@@ -947,8 +946,7 @@ background-color: #31d0aa;
     background-color: var(--secondary-color-theme-light);
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-    padding: 12px 24px;
-
+    padding: 8px 16px;
     transition: color var(--transition-duration-and-func), background-color var(--transition-duration-and-func), border-color var(--transition-duration-and-func), box-shadow var(--transition-duration-and-func);
 }
 
@@ -1179,6 +1177,10 @@ screen and (min-resolution: 2dppx) and (max-width: 1157px) {
 }
 
 /* PORTFOLIO */
+.btn {
+    padding: 12px 24px;
+}
+
 .menu-link {
     position: relative;
     padding-bottom: 24px;
