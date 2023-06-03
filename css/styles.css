@@ -887,6 +887,10 @@ background-color: #31d0aa;
     row-gap: 48px;
 }
 
+.portfolio-list-img {
+    width: 396px;
+}
+
 .overlay {
     display: none;
 }
@@ -1198,9 +1202,8 @@ screen and (min-resolution: 2dppx) and (max-width: 1157px) {
 
 /* FILTERS */
 .filters-list {
-    display: flex;
     justify-content: center;
-    column-gap: 24px;
+    row-gap: 72px;
     margin-bottom: 64px;
 }
 
@@ -1390,9 +1393,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 
 /* FILTERS */
 .filters-list {
-    display: flex;
-    justify-content: center;
-    column-gap: 24px;
     margin-bottom: 72px;
 }
 
@@ -1428,5 +1428,4 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 }
 /* /FILTERS */
 /* /PORTFOLIO */
-
 }
