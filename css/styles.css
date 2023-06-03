@@ -670,8 +670,10 @@ background-color: #31d0aa;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     padding: 72px 16px 24px 16px;
-    min-height: 584px;
-    min-width: 392px;
+    height: 100%;
+    max-height: 584px;
+    width: 100%;
+    max-width: 392px;
     background: #FCFCFC;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -1235,6 +1237,12 @@ justify-content: start;
 @media screen and (min-width: 1158px) {
     
 /* HEADER */
+.contact-list-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 /* /HEADER */
 
 /* HERO */
