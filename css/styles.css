@@ -82,11 +82,6 @@ body {
 }
 }
 
-/* .section-portfolio {
-    padding-top: 96px;
-    padding-bottom: 120px;
-} */ 
-
 /* COMPONENTS */
 .modal-open-btn {
     display: block;
@@ -169,6 +164,8 @@ body {
 }
 
 /* /COMPONENTS */
+
+/******************* MOBILE *******************/
 
 /* HEADER */
 @media screen and (max-width:767px) {
@@ -958,7 +955,9 @@ background-color: #31d0aa;
 }
 /* /FILTERS */
 /* /PORTFOLIO */
+/******************* /MOBILE *******************/
 
+/******************* TABLET *******************/
 @media screen and (min-width: 768px) {
   .mobile-menu-open-btn {
     display: none;
@@ -1229,6 +1228,9 @@ justify-content: start;
 /* /PORTFOLIO */
 
 }
+/******************* /TABLET *******************/
+
+/******************* DESKTOP *******************/
 
 @media screen and (min-width: 1158px) {
     
@@ -1429,3 +1431,4 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 /* /FILTERS */
 /* /PORTFOLIO */
 }
+/******************* /DESKTOP *******************/
