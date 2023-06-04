@@ -617,7 +617,7 @@ background-color: #31d0aa;
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    opacity: 0.3;
+    outline: none;
 }
 
 .footer-subscribe-input::placeholder {
