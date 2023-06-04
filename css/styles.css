@@ -897,6 +897,11 @@ background-color: #31d0aa;
     row-gap: 48px;
 }
 
+.portfolio-list-img {
+    max-width: 100%;
+    height: auto;
+}
+
 .overlay {
     display: none;
 }
@@ -1127,7 +1132,6 @@ screen and (min-resolution: 2dppx) and (max-width: 1157px) {
 }
 
 .customers-list-item {
-    flex-basis: calc((100% - 48px)/3);
     max-width: 168px;
     height: 88px;
 }
