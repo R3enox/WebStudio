@@ -491,7 +491,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 }
 
 .customers-list-item {
-    width: 190px;
+    width: calc((100% - 16px)/2);
     height: 88px;
 }
 
